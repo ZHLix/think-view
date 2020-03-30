@@ -19,8 +19,10 @@
     }
   },
   "extra": {
-    "config": {
-      "view": "config.php"
+    "think": {
+      "config": {
+        "view": "src/config.php"
+      }
     }
   }
 }
