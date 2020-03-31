@@ -16,12 +16,15 @@
   "autoload": {
     "psr-4": {
       "zhlix\\view\\": "src"
-    }
+    },
+    "files": [
+      "helper.php"
+    ]
   },
   "extra": {
     "think": {
       "config": {
-        "view": "src/config.php"
+        "view": "config.php"
       }
     }
   }
