@@ -2,6 +2,7 @@
     <meta name="public_key"
           content="{{ $public_key }}">
     <script src="{{ '/static/js/jsencrypt.min.js' }}"></script>
+    {!! resource('js/jsencrypt.min.js') !!}
 @endif
 
 <div class="layui-form padding">

@@ -12,7 +12,8 @@
     <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://www.layuicdn.com/layui-v2.5.6/css/layui.css">
-    <link rel="stylesheet" href="{{ resource('colorUi/index.css') }}">
+    {!! resource('css/colorUi/main.css') !!}
+    {!! resource('css/colorUi/animation.css') !!}
     <script src="https://www.layuicdn.com/layui-v2.5.6/layui.js"></script>
     <style>
         body {

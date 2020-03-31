@@ -13,8 +13,9 @@ if (!function_exists('resource')) {
             throw new \think\Exception('文件格式不正确');
         }
 
-        [, $suffix] = explode('.', $path);
-        $filename = __DIR__ . "/static/$suffix/$path";
+        preg_match('/\.(.*)$/', $path, $output);
+        [, $suffix] = $output;
+        $filename = __DIR__ . "/static/$path";
 
         if (!file_exists($filename)) {
             throw new \think\Exception('文件不存在');

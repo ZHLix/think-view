@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ '/static/layui/extend/ext/soulTable.css' }}">
+{!! resource('js/layui/extend/ext/soulTable.css') !!}
 
 @slot('toolbar')
     {{--<div class="layui-input-inline relative" title="搜索">
